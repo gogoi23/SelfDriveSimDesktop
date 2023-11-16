@@ -1,0 +1,15 @@
+[gd_resource type="Environment" load_steps=4 format=3 uid="uid://gp53v003xe3g"]
+
+[ext_resource type="Texture2D" uid="uid://b6kjghvk10doi" path="res://assets/hdrihaven_com_kiara_3_morning.jpg" id="1"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_ranv2"]
+panorama = ExtResource("1")
+
+[sub_resource type="Sky" id="1"]
+sky_material = SubResource("PanoramaSkyMaterial_ranv2")
+
+[resource]
+background_mode = 2
+sky = SubResource("1")
+ambient_light_source = 3
+reflected_light_source = 2
